@@ -99,9 +99,13 @@
   margin-top: 50px;
 }
 .number {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  padding: 54px;
+  border-right: 1px solid #A2E4D8;
+  padding: 52px;
+}
+.number1 {
+  border-left: 1px solid #A2E4D8;
+  border-right: 1px solid #A2E4D8;
+  padding: 52px;
 }
 
   @media (prefers-reduced-motion: reduce) {
