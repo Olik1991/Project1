@@ -51,6 +51,28 @@
     top: -105px;
     padding: 17px;
   }
+  .textwhite4 {
+    font-family:'Kaushan Script';
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color: #737373;
+    text-transform: none;
+    font-weight: 100;
+    top: 50px;
+}
+  
+  .text-white5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-transform:uppercase;
+    position: relative;
+    top: -60px;
+    padding: 17px;
+  }
   hr  {
     margin: 1rem 0;
     border: 1px solid #F1D8B9;
@@ -84,6 +106,18 @@
   position: relative;
   left: 634px;
   top: -116px;
+  padding: 0px 0px;
+}
+.divider3 {
+  margin: 1rem 0;
+  border: 1px solid #F1D8B9;
+  border-top: 2px solid;
+  opacity: 0.8;
+  color: #F38181;
+  width: 5%;
+  position: relative;
+  left: 634px;
+  top: -50px;
   padding: 0px 0px;
 }
 .text12 {
@@ -146,6 +180,34 @@
 .page-section {
    padding: 0rem 0; 
  
+}
+.layer1 {
+  background: url(../images/layer45.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -85px;
+    padding: 5px 0px;
+}
+.mobil {
+  position: relative;
+  left: 450px;
+}
+.mobil2 {
+  position: relative;
+    left: 325px;
+    top: 147px;
+}
+.accordion-body {
+  overflow-y:scroll;
+}
+.bodytitle {
+  position: relative;
+  top: 2px;
+  left: 9px;
+    font-size: 15px;
+    color: black;
 }
 
   @media (prefers-reduced-motion: reduce) {
