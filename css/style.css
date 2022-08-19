@@ -73,6 +73,27 @@
     top: -60px;
     padding: 17px;
   }
+  .textwhite6 {
+    font-family: 'Kaushan Script';
+    font-size: 20px;
+    position: relative;
+    /* text-align: center; */
+    color: #333333;
+    text-transform: none;
+    font-weight: 100;
+    top: -96px;
+    left: 69px;
+}
+.textwhite7 {
+    font-family:'Kaushan Script';
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color:#333333;
+    text-transform: none;
+    font-weight: 100;
+}
+
   hr  {
     margin: 1rem 0;
     border: 1px solid #F1D8B9;
@@ -118,6 +139,18 @@
   position: relative;
   left: 634px;
   top: -50px;
+  padding: 0px 0px;
+}
+.divider4 {
+  margin: 1rem 0;
+  border: 1px solid #F1D8B9;
+  border-top: 2px solid;
+  opacity: 0.8;
+  color: #F38181;
+  width: 5%;
+  position: relative;
+  left: 1px;
+  top: 20px;
   padding: 0px 0px;
 }
 .text12 {
@@ -208,6 +241,38 @@
   left: 9px;
     font-size: 15px;
     color: black;
+}
+.main23 {
+  background-color: #F8F8F8;
+  height: 200px;
+  margin-top: 80px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 185px;
+  overflow: hidden;
+}
+.w-100 {
+  width: 10%!important;
+  position: relative;
+  top: 35px;
+  left: 132px;
+}
+.carousel-control-prev-icon {
+   background-image: url(../images/arrow1.png);
+   width: 10%;
+}
+.carousel-control-next-icon {
+  background-image: url(../images/arrow2.png);
+  width: 10%;
+}
+.textsl {
+  position: relative;
+    top: -79px;
+    left: 267px;
+    font-size: 13px;
+    color: #DDDDDD;
 }
 
   @media (prefers-reduced-motion: reduce) {
@@ -360,7 +425,7 @@
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background-image: url(../images/bodycolor.png);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -374,8 +439,54 @@
   font-size: 15px;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.9;
 }
+
+
+#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-name {
+  font-size: 15px;
+}
+
+#portfolio3 .container-fluid1 .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box:hover .portfolio3-box-caption {
+  opacity: 0.9;
+}
+#portfolio3 .container-fluid1, #portfolio3 .container-sm, #portfolio3 .container-md, #portfolio3 .container-lg, #portfolio3 .container-xl, #portfolio3 .container-xxl {
+  max-width: 1920px;
+}
+
+#portfolio3 .container-fluid1 .portfolio3-box, #portfolio3 .container-sm .portfolio3-box, #portfolio3 .container-md .portfolio3-box, #portfolio3 .container-lg .portfolio3-box, #portfolio3 .container-xl .portfolio3-box, #portfolio3.container-xxl .portfolio3-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background-image: url(../images/bodycolor.png);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+.img-fluid1 {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px){
 .row-cols-md-3>* {
     flex: 0 0 auto;
