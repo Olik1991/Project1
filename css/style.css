@@ -200,6 +200,17 @@
   padding: -1px 0px;
   color: #E9E9E9;
 }
+.divider9 {
+  border: 1px solid ;
+  border-top: 1px solid;
+  opacity: 0.8;
+  width: 98%;
+  position: relative;
+  left: 12px;
+  top: -30px;
+  padding: -1px 0px;
+  color: #EFEFEF;
+}
 
 .text12 {
   position: relative;
@@ -328,6 +339,15 @@
   font-size: 14px;
   font-weight: 100;
   color: #CFCFCF;
+}
+.amantitle3 {
+  position: relative;
+    top: 23px;
+    text-align: center;
+    left: 83px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
 }
 #services {
   margin-top: -230px;
@@ -994,8 +1014,13 @@ font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }
 .footer {
-  background-color: #313454;
+  background-color: #F8F8F8;
+  
+}
+.letter {
+  color: #F39797;
 }
 .foot1 {
-  color:#77777A;
+  color:#4A4A4A;
+  font-weight: 600;
 }
