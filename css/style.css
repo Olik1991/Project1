@@ -153,6 +153,31 @@
   top: 20px;
   padding: 0px 0px;
 }
+.divider5 {
+  margin: 1rem 0;
+  border: 1px solid #F1D8B9;
+  border-top: 2px solid;
+  opacity: 0.8;
+  color: #F38181;
+  width: 20%;
+  position: relative;
+  left: 132px;
+  top: -117px;
+  padding: 0px 0px;
+}
+.divider6 {
+  margin: 1rem 0;
+  border: 1px solid #F1D8B9;
+  border-top: 2px solid;
+  opacity: 0.8;
+  color: #F38181;
+  width: 20%;
+  position: relative;
+  left: 326px;
+  top: -117px;
+  padding: 0px 0px;
+}
+
 .text12 {
   position: relative;
   text-align: center;
@@ -200,6 +225,24 @@
     left: 53px;
     font-size: 20px;
 }
+.h5 {
+  position: relative;
+    top: -105px;
+    left: 132px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #555555;
+    font-weight: 400;
+}
+.h6 {
+  position: relative;
+  top: -105px;
+  left: 325px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #555555;
+  font-weight: 400;
+}
 
   .text-muted {
     --bs-text-opacity: 1;
@@ -208,12 +251,52 @@
     left: 52px;
     top: -48px;
 }
+.text-muted1 {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-body-color-rgb),.75)!important;
+  position: relative;
+  left: 131px;
+  top: -112px;
+}
+.text-muted2 {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-body-color-rgb),.75)!important;
+  position: relative;
+  left: 326px;
+  top: -112px;
+}
+.aman40 {
+  position: relative;
+  left: 190px;
+  top: -8px;
+}
+.amantitle {
+  position: relative;
+  top: -111px;
+  text-align: center;
+  left: 131px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #CFCFCF;
+}
+.amantitle1 {
+  position: relative;
+  top: -111px;
+  text-align: center;
+  left: 325px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #CFCFCF;
+}
 #services {
   margin-top: -230px;
 }
 .page-section {
    padding: 0rem 0; 
  
+}
+#layer2 {
+  margin-top: 200px;
 }
 .layer1 {
   background: url(../images/layer45.png);
@@ -224,6 +307,16 @@
     margin-top: -85px;
     padding: 5px 0px;
 }
+.layer2 {
+  background: url(../images/layer100.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -85px;
+    padding: 5px 0px;
+}
+
 .mobil {
   position: relative;
   left: 450px;
