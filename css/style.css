@@ -177,6 +177,29 @@
   top: -117px;
   padding: 0px 0px;
 }
+.divider7 {
+  margin: 1rem 0;
+  border: 1px solid #F1D8B9;
+  border-top: 2px solid;
+  opacity: 0.8;
+  color: #F38181;
+  width: 5%;
+  position: relative;
+  left: 624px;
+  top: 69px;
+  padding: 0px 0px;
+}
+.divider8 {
+  border: 1px solid #F1D8B9;
+  border-top: 1px solid;
+  opacity: 0.8;
+  width: 98%;
+  position: relative;
+  left: 12px;
+  top: 32px;
+  padding: -1px 0px;
+  color: #E9E9E9;
+}
 
 .text12 {
   position: relative;
@@ -316,6 +339,24 @@
     margin-top: -85px;
     padding: 5px 0px;
 }
+#Down {
+  margin-top: 130px;
+}
+.layer3 {
+  background: url(../images/down1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -85px;
+    padding: 5px 0px;
+    height: 200px;
+}
+.open {
+  position: relative;
+    left: 600px;
+    top: 55px;
+}
 
 .mobil {
   position: relative;
@@ -377,6 +418,11 @@
   position: relative;
   top: -80px;
   left: -15px;
+}
+#portfolio6 {
+  background-color:#F8F8F8;
+  margin-top: 0px;
+  padding: 60px 0px;
 }
 
   @media (prefers-reduced-motion: reduce) {
@@ -657,6 +703,14 @@
     color: #B0B0B0;
     font-weight: 400;
 }
+.concert2 {
+  position: relative;
+    top: 25px;
+    left: 10px;
+    font-size: 13px;
+    color: #B0B0B0;
+    font-weight: 400;
+}
 .linec {
   position: relative;
     left: 10px;
@@ -678,12 +732,49 @@
     color: #F2F2F2;
    
 }
+.folorov {
+  position: relative;
+    left: 12px;
+    top: 28px;
+}
 @media (min-width: 992px) {
 .col1-lg-3 {
     flex: 0 0 auto;
     width: 25%;
     padding: 0px 0px;
 }
+}
+.folow {
+  position: relative;
+  top: 26px;
+  left: 11px;
+    color: #D6D6D6;
+}
+.fcocial {
+  position: relative;
+  left: 36px;
+  top: 24px;
+}
+.twiter {
+  position: relative;
+  left: 40px;
+  top: 24px;
+}
+.form-control {
+  border-radius: 0;
+  position: relative;
+  left: 11px;
+  top: 60px;
+}
+.btn23 {
+  position: relative;
+  left: 11px;
+  top: 60px;
+  width: 37%;
+  background-color: #95E1D3;
+  color:#ffffff;
+  text-transform: uppercase;
+  border: none;
 }
 
 /*PAGINATION*/
