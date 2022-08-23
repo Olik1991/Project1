@@ -266,6 +266,15 @@
   color: #555555;
   font-weight: 400;
 }
+.h7 {
+  position: relative;
+    top: -69px;
+    left: 132px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 500;
+}
 
   .text-muted {
     --bs-text-opacity: 1;
@@ -307,6 +316,15 @@
   top: -111px;
   text-align: center;
   left: 325px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #CFCFCF;
+}
+.amantitle2 {
+  position: relative;
+  top: -79px;
+  text-align: center;
+  left: 133px;
   font-size: 14px;
   font-weight: 100;
   color: #CFCFCF;
@@ -861,7 +879,37 @@ font-family: 'Open Sans', sans-serif;
   position: relative;
   top: 50px;
 }
-
+.blog22 {
+  position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    left: 58px;
+}
+.blog23 {
+  position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    left: 81px;
+}
+.mt-8 {
+  padding: 25px 58px;
+}
+.mt-9 {
+  padding: 0px 58px;
+  position: relative;
+    top: -66px;
+}
+.mt-10 {
+  padding: 0px 58px;
+  position: relative;
+    top: -110px;
+}
+.g-3, .gx-3 {
+  --bs-gutter-x: 4rem;
+  position: relative;
+  top: 20px;
+  left: 57px;
+}
 @media (min-width: 768px){
 .row-cols-md-3>* {
     flex: 0 0 auto;
@@ -878,6 +926,13 @@ font-family: 'Open Sans', sans-serif;
     position: relative;
     text-align: center;
     left: 192px;
+}
+.row2 {
+  display: flex;
+    padding: 5px ;
+    position: relative;
+    text-align: center;
+    
 }
 
 .card {
