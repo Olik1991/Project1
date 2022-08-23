@@ -168,6 +168,7 @@
   font-weight: bold;
   color: white;
 }
+ 
 .portfolio-box-caption {  
     box-shadow: 7px 7px 1px #95e1d3;
 }
@@ -442,37 +443,39 @@
   opacity: 0.9;
 }
 
-
-#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-category {
+.portfolio3-box-caption  {
+  box-shadow: 7px 7px 1px #95e1d3;
+}
+#portfolio3  .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-category, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-category .pagination .page-item .page-link {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-name {
+#portfolio3  .container-fluid1 .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption .project-name, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .project-name .pagination .page-item .page-link  {
   font-size: 15px;
 }
 
-#portfolio3 .container-fluid1 .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box:hover .portfolio3-box-caption {
+#portfolio3  .container-fluid1 .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box:hover .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box:hover .portfolio3-box-caption .pagination .page-item .page-link {
   opacity: 0.9;
 }
-#portfolio3 .container-fluid1, #portfolio3 .container-sm, #portfolio3 .container-md, #portfolio3 .container-lg, #portfolio3 .container-xl, #portfolio3 .container-xxl {
+#portfolio3  .container-fluid1, #portfolio3 .container-sm, #portfolio3 .container-md, #portfolio3 .container-lg, #portfolio3 .container-xl, #portfolio3 .container-xxl .pagination .page-item .page-link {
   max-width: 1920px;
 }
 
-#portfolio3 .container-fluid1 .portfolio3-box, #portfolio3 .container-sm .portfolio3-box, #portfolio3 .container-md .portfolio3-box, #portfolio3 .container-lg .portfolio3-box, #portfolio3 .container-xl .portfolio3-box, #portfolio3.container-xxl .portfolio3-box {
+#portfolio3  .container-fluid1 .portfolio3-box, #portfolio3 .container-sm .portfolio3-box, #portfolio3 .container-md .portfolio3-box, #portfolio3 .container-lg .portfolio3-box, #portfolio3 .container-xl .portfolio3-box, #portfolio3.container-xxl .portfolio3-box .pagination .page-item  {
   position: relative;
   display: block;
 }
 
-#portfolio3 .container-fluid1 .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption {
+#portfolio3  .container-fluid1 .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-sm .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-md .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-lg .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xl .portfolio3-box .portfolio3-box-caption, #portfolio3 .container-xxl .portfolio3-box .portfolio3-box-caption .pagination .page-item {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 88%;
+  height: 320px;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -483,8 +486,97 @@
   text-align: center;
 }
 .img-fluid1 {
+  max-width: 88%;
+  height: 320px;
+}
+.img-fluid2 {
   max-width: 100%;
   height: auto;
+}
+
+/*PAGINATION*/
+.div{margin:0 auto;position:relative;margin-top:40px;}
+.pagination{height: 42px;
+clear: right;
+top: 150px;
+left: 0;
+position: absolute;}
+.pagination ul{width: 100%;max-height: 42px;}
+.pagination li {
+  font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 30px;
+    text-indent: 0px;
+    color: #F38181;
+    background-color: #FCE38A;
+    height: 32px;
+    font-size: 18px;
+    display: inline-block;
+    width: 31px;
+    margin-left: 1px;
+    
+}
+.pagination li.selected{background-color: white;
+border: 1px solid #FAC888;
+padding: 0;
+position: relative;
+font-weight: 600;
+color: #0F7ABE;
+font-family: 'Open Sans', sans-serif;}
+.pagination li:hover{background-color: #F38181;
+border: 1px solid #FAC888;
+padding: 0;
+position: relative;
+font-weight: 600;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+}
+.manager {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  left: 92px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #545454;
+}
+.posito {
+  position: relative;
+    top: 42px;
+    text-align: center;
+    left: -13px;
+    font-size: 14px;
+    font-weight: 100;
+    color:#CFCFCF;
+}
+.manager2 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  left: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #545454;
+}
+.posito2 {
+  position: relative;
+    top: 42px;
+    text-align: center;
+    left: -102px;
+    font-size: 14px;
+    font-weight: 100;
+    color:#CFCFCF;
+}
+.main24 {
+  background-color: #F8F8F8;
+  height: 200px;
+  margin-top: 80px;
+}
+.hipster1 {
+  position: relative;
+  top: 50px;
 }
 
 @media (min-width: 768px){
